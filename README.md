@@ -1,5 +1,5 @@
 # 基于build-openwrt-with-actions仓库构建的
-项目地址:https://github.com/ziitar/build-openwrt-with-actions
+原项目地址:https://github.com/ziitar/build-openwrt-with-actions
 
 ## 使用方法
 
