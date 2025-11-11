@@ -16,5 +16,5 @@ sed -i 's/ImmortalWrt/ChenWRT/g' package/base-files/files/bin/config_generate
 #echo 'src-git UA3F https://github.com/SunBK201/UA3F.git' >>feeds.conf.default
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
-#git clone https://github.com/SunBK201/UA3F.git package/UA3F
-#git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
+git clone https://github.com/SunBK201/UA3F.git package/UA3F
+git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
