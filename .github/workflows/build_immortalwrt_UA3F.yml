@@ -94,7 +94,7 @@ jobs:
 
       - name: 克隆 immortalwrt 仓库 (Clone immortalwrt repo)
         run: |
-        git clone -b <branch> --single-branch --filter=blob:none https://github.com/immortalwrt/immortalwrt
+         git clone -b <branch> --single-branch --filter=blob:none https://github.com/immortalwrt/immortalwrt
 
       - name: 复制当前仓库的配置文件到 immortalwrt 仓库  (Copy current repo config to immortalwrt repo)
         run: cp -f .config diy.sh immortalwrt/
