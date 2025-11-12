@@ -138,6 +138,11 @@ jobs:
         working-directory: openWRT
         run: make -j$(nproc) V=s
 
+      - name: 单独编译 ua3f
+        if: ${{inputs.multithreading == false}}
+        working-directory: openWRT
+        run: make package/UA3F/openwrt/compile -j1 V=sc # 编译单个包
+
       - name: 单线程编译 openWRT (Build openWRT single thread)
         if: ${{inputs.multithreading == false}}
         working-directory: openWRT
